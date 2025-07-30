@@ -25,7 +25,7 @@ export default function Home() {
       {!isLoggedIn ? (
         <form className="card" onSubmit={handleLogin}>
           <h2 className="title">Login</h2>
-          <label>Email :</label>
+          <label>Email</label>
           <input
             className="input"
             type="email"
@@ -34,7 +34,7 @@ export default function Home() {
             onChange={(e) => setEmail(e.target.value)}
             required
           />
-          <label>Password :</label>
+          <label>Password</label>
           <input
             className="input"
             type="password"
